@@ -1,0 +1,17 @@
+type = "card"
+title = "Teaching"
+description = "Courses I have taught or assisted as a teaching assistant."
+
+[[items]]
+title = "ELEC 7023: Capstone Project"
+subtitle = "Teaching Assistant"
+date = "Autumn 2024, Spring 2025, Autumn 2025, Spring 2026"
+content = "Edge computing device programming for AI projects."
+tags = ["Graduate", "AI"]
+
+[[items]]
+title = "ELEC 4542: Introduction to Deep Learning for Computer Vision"
+subtitle = "Teaching Assistant"
+date = "Autumn 2023"
+content = "Assisted teaching and coursework support for deep learning in computer vision."
+tags = ["Undergraduate", "Computer Vision"]

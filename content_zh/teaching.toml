@@ -1,0 +1,17 @@
+type = "card"
+title = "教学"
+description = "我参与授课或担任助教的课程。"
+
+[[items]]
+title = "ELEC 7023: Capstone Project"
+subtitle = "助教"
+date = "2024 秋、2025 春、2025 秋、2026 春"
+content = "面向 AI 项目的边缘计算设备编程。"
+tags = ["研究生", "人工智能"]
+
+[[items]]
+title = "ELEC 4542: Introduction to Deep Learning for Computer Vision"
+subtitle = "助教"
+date = "2023 秋"
+content = "协助计算机视觉方向深度学习课程教学与答疑。"
+tags = ["本科生", "计算机视觉"]

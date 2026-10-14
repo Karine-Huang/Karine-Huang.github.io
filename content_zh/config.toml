@@ -1,0 +1,50 @@
+[site]
+title = "黄开艺"
+description = "香港大学 HKU-MMLAB 博士生，研究多模态生成式 AI、视频世界模型与电影生成。"
+last_updated = "2026年10月13日"
+
+[author]
+name = "黄开艺"
+title = "电机与计算机工程博士生"
+institution = "香港大学（HKU-MMLAB）"
+
+[social]
+github = "https://github.com/Karine-Huang"
+twitter = "https://x.com/KaiyiHUANG84276"
+email = "huangky@connect.hku.hk"
+location = "中国香港"
+google_scholar = "https://scholar.google.com/citations?user=dB86D_cAAAAJ&hl=zh-CN&oi=sra"
+location_details = [
+  "香港大学电机与计算机工程系，",
+  "中国香港"
+]
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "教学"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "奖项"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "服务"
+type = "page"
+target = "services"
+href = "/services"

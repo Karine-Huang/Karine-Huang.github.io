@@ -1,0 +1,25 @@
+type = "about"
+title = "关于我"
+
+[profile]
+research_interests = ["AIGC", "多模态模型", "电影生成", "视频世界模型", "智能体"]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于我"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 7
+
+[[sections]]
+id = "news"
+type = "list"
+source = "news.toml"
+title = "动态"
+limit = 4

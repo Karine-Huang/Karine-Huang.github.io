@@ -1,0 +1,56 @@
+{
+  "publications": {
+    "huang2026cinescene": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AhqOjcs7Dif8C&hl=en",
+      "citations": 8,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "huang2026filmaster": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AufrVoPGSRksC&hl=en",
+      "citations": 47,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "huang2026genmac": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AY0pCki6q_DkC&hl=en",
+      "citations": 27,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00",
+      "githubRepo": "Karine-Huang/GenMAC",
+      "stars": 37,
+      "starsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "huang2023t2icompbench": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AW7OEmFMy1HYC&hl=en",
+      "citations": 756,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00",
+      "githubRepo": "Karine-Huang/T2I-CompBench",
+      "stars": 347,
+      "starsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "huang2025t2icompbenchpp": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AYsMSGLbcyi4C&hl=en",
+      "citations": 202,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "sun2025t2vcompbench": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3ATyk-4Ss8FVUC&hl=en",
+      "citations": 213,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00",
+      "githubRepo": "KaiyueSun98/T2V-CompBench",
+      "stars": 124,
+      "starsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "huang2025dreamcube": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3A_FxGoFyzp5QC&hl=en",
+      "citations": 16,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00",
+      "githubRepo": "Yukun-Huang/DreamCube",
+      "stars": 182,
+      "starsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    },
+    "yu2026memlearner": {
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&user=dB86D_cAAAAJ&citation_for_view=dB86D_cAAAAJ%3AkNdYIx-mwKoC&hl=en",
+      "citations": 10,
+      "citationsUpdatedAt": "2026-10-13T03:51:07+00:00"
+    }
+  }
+}

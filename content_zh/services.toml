@@ -1,0 +1,21 @@
+type = "card"
+title = "学术服务"
+description = "专业服务与社区参与。"
+
+[[items]]
+title = "会议审稿人"
+subtitle = "NeurIPS, CVPR, ECCV, ICLR, AAAI, SIGGRAPH, SIGGRAPH Asia"
+date = "持续"
+content = "担任多个顶级 AI 与图形学会议审稿人。"
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "TPAMI, TIP, TCSVT"
+date = "持续"
+content = "参与计算机视觉与多媒体方向期刊审稿。"
+
+[[items]]
+title = "Workshop 组织"
+subtitle = "CVPR 2026"
+date = "2026"
+content = "组织第一届 Video World Models Workshop（Interaction, Memory, and Efficiency）。"

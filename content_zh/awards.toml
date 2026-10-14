@@ -1,0 +1,53 @@
+type = "card"
+title = "奖项"
+description = "我获得的荣誉与奖项。"
+
+[[items]]
+title = "香港大学校长博士奖学金（HKU-PS）"
+subtitle = "香港大学"
+date = "2023-2026"
+content = "支持博士阶段研究工作的校级奖学金。"
+
+[[items]]
+title = "ICLR Travel Award"
+subtitle = "ICLR"
+date = "2026"
+content = "会议差旅资助奖。"
+
+[[items]]
+title = "AAAI Travel Award"
+subtitle = "AAAI"
+date = "2026"
+content = "会议差旅资助奖。"
+
+[[items]]
+title = "上海市优秀毕业生"
+subtitle = "上海市"
+date = "2021"
+content = "市级优秀毕业生荣誉。"
+
+[[items]]
+title = "上海交通大学优秀毕业生"
+subtitle = "上海交通大学"
+date = "2021"
+content = "校级优秀毕业生荣誉。"
+
+[[items]]
+title = "唐立新奖学金"
+subtitle = "上海交通大学"
+date = "2019"
+content = "综合表现优秀奖学金。"
+
+[[items]]
+title = "中国政府奖学金（CSC）"
+subtitle = "中国国家留学基金委"
+date = "2016-2018"
+content = "支持海外学习交流。"
+
+[[items]]
+title = "李福寿特等奖学金"
+date = "2016"
+
+[[items]]
+title = "国家奖学金"
+date = "2015"

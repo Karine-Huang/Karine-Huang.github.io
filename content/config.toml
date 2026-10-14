@@ -1,0 +1,78 @@
+[site]
+title = "Kaiyi Huang"
+description = "PhD student at HKU-MMLAB working on multimodal generative AI, video world models, and cinematic generation."
+favicon = "/favicon.svg"
+last_updated = "October 13, 2026"
+
+[author]
+name = "Kaiyi Huang"
+title = "PhD Student in Electrical and Computer Engineering"
+institution = "The University of Hong Kong (HKU-MMLAB)"
+avatar = "/bio-illustration-v6.png"
+
+[social]
+github = "https://github.com/Karine-Huang"
+twitter = "https://x.com/KaiyiHUANG84276"
+# Contact information (leave blank or delete to hide)
+
+email = "huangky@connect.hku.hk"
+location = "Hong Kong"
+location_url = "https://maps.google.com/?q=The+University+of+Hong+Kong"
+location_details = [
+  "Department of Electrical and Computer Engineering,",
+  "The University of Hong Kong, Hong Kong"
+]
+google_scholar = "https://scholar.google.com/citations?user=dB86D_cAAAAJ&hl=zh-CN&oi=sra"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
+mode = "auto"
+fixed_locale = "en"
+# If true, PRISM will remember user's language preference in browser's localStorage
+persist = true
+# Show a language switcher on the top right corner
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"

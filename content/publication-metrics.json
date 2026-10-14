@@ -1,0 +1,33 @@
+{
+  "scholarUser": "dB86D_cAAAAJ",
+  "publications": {
+    "huang2026cinescene": {
+      "scholarKey": "hqOjcs7Dif8C"
+    },
+    "huang2026filmaster": {
+      "scholarKey": "ufrVoPGSRksC"
+    },
+    "huang2026genmac": {
+      "scholarKey": "Y0pCki6q_DkC",
+      "githubRepo": "Karine-Huang/GenMAC"
+    },
+    "huang2023t2icompbench": {
+      "scholarKey": "W7OEmFMy1HYC",
+      "githubRepo": "Karine-Huang/T2I-CompBench"
+    },
+    "huang2025t2icompbenchpp": {
+      "scholarKey": "YsMSGLbcyi4C"
+    },
+    "sun2025t2vcompbench": {
+      "scholarKey": "Tyk-4Ss8FVUC",
+      "githubRepo": "KaiyueSun98/T2V-CompBench"
+    },
+    "huang2025dreamcube": {
+      "scholarKey": "_FxGoFyzp5QC",
+      "githubRepo": "Yukun-Huang/DreamCube"
+    },
+    "yu2026memlearner": {
+      "scholarKey": "kNdYIx-mwKoC"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "HKU Presidential PhD Scholarship (HKU-PS)"
+subtitle = "The University of Hong Kong"
+date = "2023-2026"
+content = "Presidential scholarship supporting doctoral research at HKU."
+
+[[items]]
+title = "ICLR Travel Award"
+subtitle = "ICLR"
+date = "2026"
+content = "Travel support award for attending ICLR."
+
+[[items]]
+title = "AAAI Travel Award"
+subtitle = "AAAI"
+date = "2026"
+content = "Travel support award for attending AAAI."
+
+[[items]]
+title = "Outstanding Graduates of Shanghai"
+subtitle = "Shanghai Municipal"
+date = "2021"
+content = "City-level outstanding graduate honor."
+
+[[items]]
+title = "Outstanding Graduates of Shanghai Jiao Tong University"
+subtitle = "Shanghai Jiao Tong University"
+date = "2021"
+content = "University-level outstanding graduate honor."
+
+[[items]]
+title = "Tang Lixin Scholarship"
+subtitle = "Shanghai Jiao Tong University"
+date = "2019"
+content = "Major merit-based scholarship."
+
+[[items]]
+title = "Chinese Government Scholarship (CSC)"
+subtitle = "China Scholarship Council"
+date = "2016-2018"
+content = "Scholarship supporting overseas study."
+
+[[items]]
+title = "Li Fushou Scholarship (Special Prize)"
+date = "2016"
+
+[[items]]
+title = "National Scholarship"
+date = "2015"

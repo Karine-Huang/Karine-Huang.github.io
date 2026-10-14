@@ -1,0 +1,5 @@
+我目前是[**香港大学**](https://www.hku.hk/)[**电机与计算机工程系（ECE）**](https://ece.hku.hk/)四年级博士生（[**HKU-MMLAB**](https://mmlab.hk/)），导师为[**刘希慧教授（Xihui Liu）**](https://xh-liu.github.io/)。我的研究聚焦于多模态生成式人工智能与智能体系统，重点方向包括视频世界模型、电影生成以及可控视觉内容生成。此前，我在[**上海交通大学**](https://www.sjtu.edu.cn/)获得学士和硕士学位，并在[**法国巴黎中央理工学院**](https://www.centralesupelec.fr/)完成双硕士学位培养（Diplome d'Ingenieur，General Engineering）。我也曾在[**腾讯 IEG ARC**](https://www.tencent.com/zh-cn/business.html)、[**快手 Kling**](https://klingai.com/)和[**华为诺亚方舟实验室**](https://www.noahlab.com.hk/)开展研究实习。
+
+我的工作涵盖三个方向：（1）视频世界模型（[Multics](https://karine-huang.github.io/Multics/) 与 [MemLearner](https://yujiwen.github.io/memlearner/)）；（2）电影级视频与影片生成（[CineScene](https://karine-huang.github.io/CineScene/) 与 [FilMaster](https://filmaster-ai.github.io/)）；（3）组合式图像与视频生成（T2I-CompBench、T2I-CompBench++、[T2V-CompBench](https://t2v-compbench-2025.github.io/) 与 [GenMAC](https://karine-h.github.io/GenMAC/)）。其中，[**T2I-CompBench 系列**](https://github.com/Karine-Huang/T2I-CompBench)是广泛使用的组合式文生图评测基准，已被工业界主流模型评测采用。
+
+**我正在求职（Job Market），将于 2027 年毕业。** 如果你对我们的研究感兴趣，欢迎通过[**电子邮件**](mailto:huangky@connect.hku.hk)联系我。
