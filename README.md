@@ -45,12 +45,22 @@ python3 scripts/update_publication_metrics.py
 
 ## Git 与部署
 
-这是一个独立本地仓库；没有继承上游仓库历史或远端。检查通过后，再绑定你自己的 GitHub 仓库：
+这是一个独立本地仓库，没有继承上游仓库历史。根据提供的账号，本地 `origin` 预设为：
+
+```text
+https://github.com/Karine-Huang/Karine-Huang.github.io.git
+```
+
+仓库名采用 [GitHub Pages 个人主页的标准命名](https://docs.github.com/en/pages/quickstart)，对应网站地址为 `https://karine-huang.github.io/`。目前仅完成本地配置，尚未创建远端仓库或 push。
+
+检查通过后，先确认该账号下已准备好同名仓库。如果新建，保持远端为空（不要自动添加 README、许可证或 .gitignore），再推送本地提交：
 
 ```sh
-git remote add origin <你的仓库URL>
+git remote -v
 git push -u origin main
 ```
+
+如果使用其他仓库地址，可先运行 `git remote set-url origin <你的仓库URL>`。
 
 当前网站使用域名根路径；如部署到 `username.github.io/repository/` 子路径，需要先调整资源路径和 Next.js 的 `basePath`。
 
