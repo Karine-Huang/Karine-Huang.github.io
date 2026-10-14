@@ -12,8 +12,8 @@ interface ThemeStore {
 export const useThemeStore = create<ThemeStore>()(
   persist(
     (set, get) => ({
-      // Default to system preference
-      theme: 'system',
+      // Start in light mode; visitors can still choose dark or system mode.
+      theme: 'light',
       setTheme: (theme: Theme) => {
         set({ theme });
         updateTheme(theme);
@@ -27,7 +27,7 @@ export const useThemeStore = create<ThemeStore>()(
       },
     }),
     {
-      name: 'theme-storage',
+      name: 'theme-storage-v2',
       storage: createJSONStorage(() => {
         if (typeof window !== 'undefined') {
           return localStorage;

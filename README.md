@@ -4,6 +4,8 @@
 
 首页展示代表作，`All Publications ↗` 直接打开 Google Scholar 的完整论文列表；网站不再生成独立的 Publications 页面。
 
+默认使用英文和浅色主题；访客仍可手动切换语言及主题，并记住之后的选择。
+
 ## 本地预览
 
 需要 Node.js 22、npm；指标更新和静态预览使用 Python 3。

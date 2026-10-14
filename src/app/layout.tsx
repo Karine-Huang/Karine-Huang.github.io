@@ -42,7 +42,7 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
   return `
     try {
       const cfg = ${serializedConfig};
-      const storageKey = 'locale-storage';
+      const storageKey = 'locale-storage-v2';
       const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
       const matchLocale = (candidate) => {
         const normalized = normalize(candidate);
@@ -143,9 +143,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                const theme = localStorage.getItem('theme-storage');
+                const theme = localStorage.getItem('theme-storage-v2');
                 const parsed = theme ? JSON.parse(theme) : null;
-                const setting = parsed?.state?.theme || 'system';
+                const setting = parsed?.state?.theme || 'light';
                 const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
                 const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));
                 var root = document.documentElement;
