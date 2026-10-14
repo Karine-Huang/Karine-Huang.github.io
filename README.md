@@ -53,9 +53,9 @@ python3 scripts/update_publication_metrics.py
 https://github.com/Karine-Huang/Karine-Huang.github.io.git
 ```
 
-仓库名采用 [GitHub Pages 个人主页的标准命名](https://docs.github.com/en/pages/quickstart)，对应网站地址为 `https://karine-huang.github.io/`。目前仅完成本地配置，尚未创建远端仓库或 push。
+仓库名采用 [GitHub Pages 个人主页的标准命名](https://docs.github.com/en/pages/quickstart)，网站地址为 **https://karine-huang.github.io/**。
 
-检查通过后，先确认该账号下已准备好同名仓库。如果新建，保持远端为空（不要自动添加 README、许可证或 .gitignore），再推送本地提交：
+后续更新可提交到 `main` 并推送，GitHub Actions 会自动构建和发布：
 
 ```sh
 git remote -v
@@ -66,7 +66,7 @@ git push -u origin main
 
 当前网站使用域名根路径；如部署到 `username.github.io/repository/` 子路径，需要先调整资源路径和 Next.js 的 `basePath`。
 
-GitHub Pages 工作流保留手动触发和每天北京时间 08:20 的定时更新。推送触发当前关闭；需在 GitHub 仓库的 Pages 设置中选择 GitHub Actions，并按需启用工作流的 `push` 配置。定时工作流在默认分支上运行。
+GitHub Pages 工作流在推送到 `main` 时自动触发，同时保留手动触发和每天北京时间 08:20 的定时更新。Pages 的发布来源应为 GitHub Actions。定时工作流在默认分支上运行。
 
 ## 来源
 
