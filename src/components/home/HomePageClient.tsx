@@ -84,7 +84,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                         key={section.id}
                         publications={section.publications || []}
                         title={section.title}
-                        enableOnePageMode={data.enableOnePageMode}
+                        scholarUrl={data.social.google_scholar}
                       />
                     );
                   case 'list':

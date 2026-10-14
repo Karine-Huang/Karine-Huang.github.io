@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { Publication } from '@/types/publication';
 import { useMessages } from '@/lib/i18n/useMessages';
 import PublicationPreview from '@/components/publications/PublicationPreview';
@@ -10,16 +9,16 @@ import PublicationDetails from '@/components/publications/PublicationDetails';
 interface SelectedPublicationsProps {
     publications: Publication[];
     title?: string;
-    enableOnePageMode?: boolean;
+    scholarUrl?: string;
 }
 
-export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
+export default function SelectedPublications({ publications, title, scholarUrl }: SelectedPublicationsProps) {
     const messages = useMessages();
     return (
         <section id="selected-publications" className="scroll-mt-24">
-            <div className="mb-5 flex items-baseline justify-between gap-4">
+            <div className="mb-5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
                 <h2 className="text-2xl font-serif font-bold text-primary">{title || messages.home.selectedPublications}</h2>
-                <Link href={enableOnePageMode ? '/#publications' : '/publications'} className="shrink-0 text-sm font-medium text-accent hover:text-accent-dark">{messages.home.viewAll} →</Link>
+                {scholarUrl && <a href={scholarUrl} target="_blank" rel="noopener noreferrer" className="ml-auto shrink-0 text-sm font-medium text-accent hover:text-accent-dark">{messages.home.allPublications} ↗</a>}
             </div>
             <div className="space-y-5">
                 {publications.map(pub => {

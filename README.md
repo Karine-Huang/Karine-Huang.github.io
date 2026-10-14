@@ -2,6 +2,8 @@
 
 个人学术主页，基于 Next.js、React 和 PRISM，支持中英文切换、论文视频预览、Google Scholar 引用数及 GitHub stars。
 
+首页展示代表作，`All Publications ↗` 直接打开 Google Scholar 的完整论文列表；网站不再生成独立的 Publications 页面。
+
 ## 本地预览
 
 需要 Node.js 22、npm；指标更新和静态预览使用 Python 3。

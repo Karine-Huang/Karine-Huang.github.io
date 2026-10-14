@@ -30,7 +30,7 @@ export interface LocaleMessages {
     about: string;
     news: string;
     selectedPublications: string;
-    viewAll: string;
+    allPublications: string;
     moreNews: string;
     lessNews: string;
   };
@@ -85,7 +85,7 @@ const en: LocaleMessages = {
     about: 'About',
     news: 'News',
     selectedPublications: 'Selected Publications',
-    viewAll: 'View All',
+    allPublications: 'All Publications',
     moreNews: 'Click for more',
     lessNews: 'Show less',
   },
@@ -140,7 +140,7 @@ const zh: LocaleMessages = {
     about: '关于我',
     news: '动态',
     selectedPublications: '精选论文',
-    viewAll: '查看全部',
+    allPublications: '全部论文',
     moreNews: '点击查看更多',
     lessNews: '收起',
   },

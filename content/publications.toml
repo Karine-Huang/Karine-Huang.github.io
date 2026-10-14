@@ -1,4 +1,0 @@
-type = "publication"
-title = "Publications"
-description = "Selected papers and projects in multimodal generation, world models, and AI agents."
-source = "publications.bib"

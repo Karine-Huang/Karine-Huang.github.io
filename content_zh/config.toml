@@ -26,12 +26,6 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
-type = "page"
-target = "publications"
-href = "/publications"
-
-[[navigation]]
 title = "教学"
 type = "page"
 target = "teaching"
